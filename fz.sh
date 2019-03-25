@@ -162,7 +162,7 @@ __fz_generate_matches() {
 }
 
 __fz_filter() {
-    FZF_DEFAULT_OPTS="--color info:52,prompt:196,spinner:208,pointer:196,marker:208 --height ${FZF_TMUX_HEIGHT:-40%} --reverse \
+    FZF_DEFAULT_OPTS="--color info:1,prompt:2,spinner:3,pointer:4,marker:5 --height ${FZF_TMUX_HEIGHT:-40%} --reverse \
       --bind 'shift-tab:up,tab:down' $FZF_DEFAULT_OPTS" fzf
 }
 
