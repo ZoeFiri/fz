@@ -163,7 +163,7 @@ __fz_generate_matches() {
 
 __fz_filter() {
     FZF_DEFAULT_OPTS="--height ${FZF_TMUX_HEIGHT:-40%} --reverse \
-      --bind 'shift-tab:up,tab:down' $FZF_DEFAULT_OPTS" fzf
+      --bind 'shift-tab:up,tab:down --color info:1,prompt:2,spinner:3,pointer:4,marker:5 --color info:1,prompt:2,spinner:3,pointer:4,marker:5' $FZF_DEFAULT_OPTS" fzf
 }
 
 __fz_bash_completion() {
